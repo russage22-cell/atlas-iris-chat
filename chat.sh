@@ -28,7 +28,8 @@ while true; do
 
     # Check whose turn it is
     LAST_SPEAKER=$(grep -o '\*\*\[.*\]\*\*' "$CONVO_FILE" 2>/dev/null | tail -1 | tr -d '*[]')
-    MSG_COUNT=$(grep -c '\*\*\[' "$CONVO_FILE" 2>/dev/null || echo 0)
+    MSG_COUNT=$(grep -c '\*\*\[' "$CONVO_FILE" 2>/dev/null || true)
+    MSG_COUNT=${MSG_COUNT:-0}
 
     if [ "$MSG_COUNT" -eq 0 ] && [ "$AGENT_UPPER" = "ATLAS" ]; then
         # No messages yet, Atlas goes first
